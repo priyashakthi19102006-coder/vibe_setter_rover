@@ -1,0 +1,79 @@
+# ========================================================
+# VIBESETTER OS - Git Ignore Configuration
+# ========================================================
+
+# --- Environment & Secret Credentials ---
+.env
+*.env
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.local
+
+# --- Dependency Directories ---
+node_modules/
+**/node_modules/
+package-lock.json
+
+# --- Python Virtual Environments ---
+venv/
+.venv/
+**/venv/
+**/.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python Bytecode & Cache ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyo
+*.pyd
+
+# --- Build Outputs ---
+dist/
+**/dist/
+dist-ssr/
+build/
+**/build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Testing & Code Quality ---
+.pytest_cache/
+.coverage
+htmlcov/
+.oxlintrc.json.cache
+
+# --- Logs & Diagnostics ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Editor & OS Specific Files ---
+.vscode/
+**/.vscode/
+!.vscode/extensions.json
+.idea/
+**/.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.bak
+*~

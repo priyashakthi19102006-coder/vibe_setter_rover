@@ -1,0 +1,12 @@
+{
+  "name": "vibesetter-rover-workspace",
+  "version": "2.5.0",
+  "private": true,
+  "description": "VIBESETTER OS - Futuristic AI Companion Rover Control Dashboard & Physical Hardware Bridge",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "preview": "npm --prefix frontend run preview"
+  }
+}
